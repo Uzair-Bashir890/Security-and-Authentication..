@@ -1,0 +1,156 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\bashi\\OneDrive\\Documents\\Favourites\\Microsoft\\Microsoft Full stack Development\\Security and Authentication\\SafeVaultActivity\\Tests\\SafeVault.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\bashi\\OneDrive\\Documents\\Favourites\\Microsoft\\Microsoft Full stack Development\\Security and Authentication\\SafeVaultActivity\\SafeVault\\SafeVault.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bashi\\OneDrive\\Documents\\Favourites\\Microsoft\\Microsoft Full stack Development\\Security and Authentication\\SafeVaultActivity\\SafeVault\\SafeVault.csproj",
+        "projectName": "SafeVault",
+        "projectPath": "C:\\Users\\bashi\\OneDrive\\Documents\\Favourites\\Microsoft\\Microsoft Full stack Development\\Security and Authentication\\SafeVaultActivity\\SafeVault\\SafeVault.csproj",
+        "packagesPath": "C:\\Users\\bashi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bashi\\OneDrive\\Documents\\Favourites\\Microsoft\\Microsoft Full stack Development\\Security and Authentication\\SafeVaultActivity\\SafeVault\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bashi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bashi\\OneDrive\\Documents\\Favourites\\Microsoft\\Microsoft Full stack Development\\Security and Authentication\\SafeVaultActivity\\Tests\\SafeVault.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bashi\\OneDrive\\Documents\\Favourites\\Microsoft\\Microsoft Full stack Development\\Security and Authentication\\SafeVaultActivity\\Tests\\SafeVault.Tests.csproj",
+        "projectName": "SafeVault.Tests",
+        "projectPath": "C:\\Users\\bashi\\OneDrive\\Documents\\Favourites\\Microsoft\\Microsoft Full stack Development\\Security and Authentication\\SafeVaultActivity\\Tests\\SafeVault.Tests.csproj",
+        "packagesPath": "C:\\Users\\bashi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bashi\\OneDrive\\Documents\\Favourites\\Microsoft\\Microsoft Full stack Development\\Security and Authentication\\SafeVaultActivity\\Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bashi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\bashi\\OneDrive\\Documents\\Favourites\\Microsoft\\Microsoft Full stack Development\\Security and Authentication\\SafeVaultActivity\\SafeVault\\SafeVault.csproj": {
+                "projectPath": "C:\\Users\\bashi\\OneDrive\\Documents\\Favourites\\Microsoft\\Microsoft Full stack Development\\Security and Authentication\\SafeVaultActivity\\SafeVault\\SafeVault.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.9.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
